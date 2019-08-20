@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body id="<%= pageID %>">
+    <% include partials/template/header.ejs %>
+    <!-- container -->
+    <div class="container">
+        <!-- <p ><%= pageQs %></p> -->
+        <% if (pageQs.length > 0) { %>
+          <% for (i=0; i< pageQs.length; i++) { %>
+            <% if(i%2==0)   { %>
+            <p ><%= pageQs[i] %></p>
+          <% } %>
+          <% if(i%2!=0)   { %>
+            <h5 ><%= pageQs[i] %></h5>
+          <% } %>
+          <% } %>
+          <% } %>
+
+    </div>
+    <!-- container -->
+    <% include partials/template/jsdefaults.ejs %>
+  </body>
+</html>
