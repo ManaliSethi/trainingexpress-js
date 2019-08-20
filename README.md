@@ -12,5 +12,5 @@
 7. Run `> npm install body-parser
 8. Run `> npm start ` 
 
-##Assignment 2 :Read JSON  quotes file and generate random quotes 
-##Assignment 3 :Count number of hits on your websites.
+## Assignment 2 :Read JSON  quotes file and generate random quotes 
+## Assignment 3 :Count number of hits on your websites.
